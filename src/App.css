@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+/* AppCss */
+.pages {
+  color: #008ECC;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+
+/* Navbar CSS */
+
+ 
+
+.parentDiv {
+  padding: 10px;
+  border: 1px solid #F3F9FB;
+  height: 35px;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  width: 500px;
+  background-color: #F3F9FB;
+  color: #666666;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.text {
+  padding: 5px;
+}
+
+.downIcon {
+  margin-left: 5px;
+  margin-top: 7px;
+  color:
+    #666666;
+}
+
+.small-screen {
+  display: none;
+}
+
+
+.inputField {
+  background-color: #F3F9FB;
+  margin-left: 7px;
+  flex: 1;
+  outline: none;
+  border: none;
+}
+
+
+/* Navbar CSS End */
+
+/* Home Page CSS Start */
+
+ 
+
+.margin-Top {
+  margin-top: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+}
+
+
+/* Home Page CSS Ends */
+
+/* Reuseable Classes */
+
+.image-container {
+  position: relative;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid black;
+  background-color: #F5F5F5;
+  display: flex;
+  border: 1px solid #EDEDED;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.text-overlay {
+  /* height: 20%; */
+  right: 0px;
+  position: absolute;
+  top: 0;
+  width: 20%;
+  background-color:
+    #008ECC;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.top-left-text {
+  font-size: 16px;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex;
+  padding: 10px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.mobileImage {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.bg-white {
+  height: 100%;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 96%;
+  background-color: white;
+  padding: 5px;
+}
+
+.mainHeading {
+  padding: 5px;
+  color: #222;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.payment {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.startssection {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.image-wrapper img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.class1 {
+  display: none;
+}
+
+
+/* Reuseable Classes  End*/
+
+/* All images Margins  */
+.m13Image {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.m53Image {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.m22Image {
+  margin-top: -5px !important;
+}
+
+
+.dFlex {
+  display: flex;
+}
+
+
+.mobile-img {
+  width: 84px !important;
+  height: 158px;
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+
+
+.searchBar {
+  font-size: 20px;
+  padding: 0px;
+  color: #008ECC !important;
+
+}
+
+.cart-logo-wrapper {
+  margin-right: 30px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.cart-logo-wrapper p{
+  margin-left: 5px;
+}
+
+.cart-icon{
+  font-size: 20px;
+  color: #008ECC
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px
+}
+
+/* .with-background{
+  background-color: white;
+}  */
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  border: none !important;
+  width: 100%;
+  height: 32px;
+  padding: 0 11px;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-btn-primary {
+  color: #fff;
+  background-color: #fff !important;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
+
+ 
+:where(.css-dev-only-do-not-override-byeoj0).ant-btn-primary {
+    color: #fff;
+    /* background-color: #1677ff; */
+ 
+}
+
+@media only screen and (min-width:320px) and (max-width:375px) {
+  .container {
+    padding-left: 0px !important;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+
+  }
+
+  .header {
+    height: 100px !important;
+    width: 506px;
+  }
+
+  .logoWrapper {
+    margin-left: 0px;
+  }
+
+  .logoWrapper img {
+    padding: 10px;
+    width: 100px
+  }
+
+  .mTop {
+
+    padding: 15px;
+
+  }
+
+  .cart-logo-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .image-container {
+    width: 400px !important;
+  }
+
+  .class1 {
+    display: block;
+  }
+
+  .pages {
+    margin: 0px;
+  }
+
+  .image-grid {
+    padding: 20px;
+    margin-left: 0px;
+  }
+
+  .image-grid h4 {
+    margin-bottom: 10px;
+  }
+
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .heading {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .price {
+    flex: 0;
+    font-weight: bold;
+  }
+
+  .search-bar-container {
+    display: none;
+  }
+
+  .small-screen {
+    display: block;
+    margin-top: 1px;
+  }
+
+  .mainHeading {
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .add-to-cart-button {
+    background-color: #FFC915;
+    height: 30px !important;
+    color: #222;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .displayNone {
+    display: none;
+  }
+
+  .parentDiv {
+    width: 482px;
+  }
+
+
+  .parentDiv {
+    border-radius: 0px;
+    width: 483px !important;
+  }
+}
+
+@media (min-width: 476px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px
+  }
+}
+
+@media (min-width: 576px) {
+
+  .add-to-cart-button {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px
+  }
+
+  .logoWrapper {
+    margin-left: 11px;
+  }
+
+  .logoWrapper img {
+    width: 150px;
+  }
+
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .displayNone {
+    display: none;
+  }
+
+  .displayBlock {
+    display: block;
+  }
+
+  .image-grid {
+    padding: 20px;
+    margin-left: 0px;
+  }
+
+  .pages {
+    margin: 0px;
+  }
+
+  .mainHeading {
+    font-size: 12px;
+  }
+
+  .bg-white {
+    width: 94%;
+  }
+
+  .parentDiv {
+    width: 100%;
+  }
+
+  .cart-logo-wrapper {
+    margin-left: 40px;
+  }
+
+
+}
